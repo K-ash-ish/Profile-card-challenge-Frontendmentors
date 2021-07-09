@@ -14,7 +14,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -26,8 +25,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ![](Capture.PNG)
 
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
@@ -50,5 +47,4 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - Frontend Mentor - [@K-ash-ish](https://www.frontendmentor.io/profile/K-ash-ish)
 - Twitter - [@KashishSo](https://twitter.com/KashishSo)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
