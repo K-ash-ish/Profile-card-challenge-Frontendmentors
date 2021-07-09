@@ -1,10 +1,11 @@
 
-
 body{
     background-color: hsl(185, 75%, 39%);
     font-family: 'Kumbh Sans', sans-serif;
     text-align: center;
+    overflow: hidden;
 }
+
 hr{
     border-top: 1px  solid hsl(0, 0%, 59%);
     border-bottom: none;
@@ -19,18 +20,47 @@ img{
 span{
     font-weight: 700;
 }
+a{
+    text-decoration: none;
+    
+}
 
 .container{
     width: 500px;
     margin: 0 auto;
 }
+
+.container::before, .container::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    background-size: auto;
+}
+
+.container::before{
+    background: url("images/bg-pattern-top.svg") no-repeat bottom right;
+    transform: translate(-50%,-50%);
+    top: 0;
+    left: 0;
+}
+.container::after{
+    background: url("images/bg-pattern-bottom.svg") no-repeat ;
+    /* transform: translate(-10%,-40%); */
+    bottom: 0;
+    transform: translate(-5%,40%);
+}
+
 .card{
     
     border-radius: 20px;
     width: 350px;
     height: auto;
-    margin: 25% auto;
+    margin: 30% auto;
+    margin-bottom: 35%;
     background-color: white;
+    
 }
 .card-sub-container{
     display: flex;
@@ -51,3 +81,28 @@ span{
     color: hsl(227, 10%, 46%);
 }
 
+/* 
+
+    
+
+.container:before, .container:after {
+    position: absolute;
+    content: '';
+    width: 100vw;
+    height: 100vh;
+    background-size: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+
+    .container:before {
+    top: 0;
+    left: 0;
+    background: url("../images/bg-pattern-top.svg") no-repeat bottom right;
+  }
+  
+  .container:after {
+    top: 100%;
+    left: 100%;
+    background: url("../images/bg-pattern-bottom.svg") no-repeat top left;
+  } */
